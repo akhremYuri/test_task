@@ -1,0 +1,17 @@
+:root {
+  --hover-color: hsl(248, 32%, 49%);;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}

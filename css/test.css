@@ -1,0 +1,19 @@
+:root {
+  --brend-color: hsl(248, 32%, 49%);
+  --test-color: red;
+  --test-bg-color: green;
+}
+
+aside {
+  /*display: none;*/
+  border: 1px solid var(--test-color);
+}
+
+aside div {
+  background-color: var(--test-bg-color);
+  border: 1px solid var(--test-color);
+}
+
+div {
+  border: 1px solid var(--brend-color);
+}
