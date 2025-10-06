@@ -17,3 +17,8 @@ aside div {
 div {
   border: 1px solid var(--brend-color);
 }
+
+a {
+  display: block;
+  text-decoration-style: unset;
+}
