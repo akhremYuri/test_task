@@ -22,3 +22,16 @@ a {
   display: block;
   text-decoration-style: unset;
 }
+
+header{
+  margin: 50px 150px 150px 50px;
+}
+
+svg {
+  width: 21px;
+  height: 21px;
+}
+
+ul.test > li {
+  display: flex;
+}
