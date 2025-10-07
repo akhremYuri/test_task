@@ -4,6 +4,21 @@
 
 ul {
   list-style-type: none;
+
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+li.col {
+  width: 35px;
+}
+
+ul.row.align-items-center {
+  width: 75px;
+  padding-right: 10px;
 }
 
 a {
@@ -15,3 +30,4 @@ a:hover {
   color: var(--hover-color);
   text-decoration: underline;
 }
+
