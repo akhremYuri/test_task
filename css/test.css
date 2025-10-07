@@ -25,6 +25,7 @@ a {
 
 header{
   margin: 50px 150px 150px 50px;
+  border: 1px solid var(--test-color);
 }
 
 svg {
