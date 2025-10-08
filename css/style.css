@@ -12,8 +12,8 @@ ul, li {
   margin: 0;
 }
 
-li.col {
-  width: 35px;
+li.col-4 {
+  flex: 0 0 25px;
 }
 
 ul.row.align-items-center {
@@ -34,7 +34,7 @@ a:hover {
 header > ul {
   display: flex;
   justify-content: space-between;
-  //align-items: center;
+  align-items: center;
 }
 
 header > ul > li > span:first-child {
