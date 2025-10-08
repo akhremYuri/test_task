@@ -2,6 +2,11 @@
   --hover-color: hsl(248, 32%, 49%);;
 }
 
+svg {
+  width: 25px;
+  height: 25px;
+}
+
 ul {
   list-style-type: none;
 
